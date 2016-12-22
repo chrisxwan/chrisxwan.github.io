@@ -1,0 +1,28 @@
+body {
+	font-family: 'Cardo', serif;
+	background-image: url('../bg.jpg');
+	color: #121b3e;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;
+}
+
+a:hover {
+	color: #7090cb;
+}
+
+.container {
+	position: absolute;
+	top: 35%;
+ 	left: 50%;
+	transform: translate(-50%, -50%);
+}
