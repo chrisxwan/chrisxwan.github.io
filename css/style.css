@@ -18,14 +18,14 @@ a {
 	cursor: pointer;
 }
 
-.container {
-	position: absolute;
-	top: 40%;
- 	left: 50%;
-	transform: translate(-50%, -50%);
+.containers {
 	display: flex;
 	flex-direction:row;
 	justify-content: space-around;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
 }
 
 #profile {
@@ -63,7 +63,6 @@ p {
 	padding-right: 50px;
 	display:flex;
     flex-direction:column;
-    
 }
 
 #right {
@@ -76,10 +75,11 @@ p {
 	width: 300px;
 }
 
-@media only screen and (max-width: 900px) {
-	.container {
-		top: 50%;
+@media only screen and (max-width: 960px) {
+	.containers {
 		flex-direction: column;
+		margin-top: 100px;
+		width: 600px;
 	}
 	#left {
 		flex-direction: column;
@@ -99,3 +99,9 @@ p {
 		width: 100%;
 	}
 }
+
+@media only screen and (max-width: 650px) {
+	.containers {
+		margin-top: 50px;
+		width: 400px;
+	}
